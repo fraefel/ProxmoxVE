@@ -9,10 +9,10 @@ source <(curl -s https://raw.githubusercontent.com/community-scripts/ProxmoxVE/m
 APP="Home Assistant-Core"
 var_tags="automation;smarthome"
 var_cpu="2"
-var_ram="1024"
-var_disk="8"
-var_os="ubuntu"
-var_version="24.04"
+var_ram="2048"
+var_disk="50"
+var_os="debian"
+var_version="12"
 var_unprivileged="1"
 
 # App Output & Base Settings
